@@ -20,9 +20,9 @@ MAIN:
 	MOV SP, #0CFH ;-- initialising stack pointer to 0CFH
 	MOV 50H, #5 ;-- N = 5, number of bytes to be cleared
 	MOV 51H, #60H ;-- starting from 60H
-	MOV 60H, #0H
-	MOV 61H, #1H
-	MOV 62H, #2H
+	MOV 60H, #0H ;-- initialising the memory locations to
+	MOV 61H, #1H ;-- be cleared by the subriutine with
+	MOV 62H, #2H ;-- dummy values for verification
 	MOV 63H, #3H
 	MOV 64H, #4H
 	LCALL zeroOut
