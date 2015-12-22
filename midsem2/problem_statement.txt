@@ -1,0 +1,1 @@
+1. Using LM35 temperature sensor, measure the temperature of the provided resistor and display on the LCD. Interface the temperature sensor with the 8051 microcontroller using MCP3008 A/D converter. Take readings of temperature over a period of one minute at an interval of every 5 seconds and plot the temperature of the resistor vs. time.
